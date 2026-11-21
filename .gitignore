@@ -1,0 +1,30 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+secrets/
+credentials*.json
+token*.json
+*oauth*client*.json
+
+# Downloaded or generated local state
+attachments/
+data/local/
+*.sqlite
+*.sqlite3
+*.db
+*.log
+
+# Python and editor artifacts
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.vscode/
+.idea/
+node_modules/
+dist/
+.next/
+*.tsbuildinfo
